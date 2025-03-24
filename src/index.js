@@ -19,6 +19,7 @@
                 const span = document.createElement("span");
                 span.innerText = character.name;
                 characterBar.appendChild(span);
+                span.style.cursor="pointer";
 
                 
                 span.addEventListener("click", ()=> {
